@@ -6,12 +6,12 @@ public class TestaCurso {
 
 	public static void main(String[] args) {
 
-		Curso javaColecoes = new Curso("Dominando as coleÃ§Ãµes do Java",
+		Curso javaColecoes = new Curso("Dominando as coleções do Java",
 				"Paulo Silveira");
 
 		javaColecoes.adiciona(new Aula("Trabalhando com ArrayList", 21));
 		javaColecoes.adiciona(new Aula("Criando uma Aula", 20));
-		javaColecoes.adiciona(new Aula("Modelando com coleÃ§Ãµes", 22));
+		javaColecoes.adiciona(new Aula("Modelando com coleções", 22));
 
 		List<Aula> aulas = javaColecoes.getAulas();
 
